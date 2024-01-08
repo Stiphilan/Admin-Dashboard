@@ -1,0 +1,152 @@
+.user{
+    flex:4;
+    padding: 20px;
+}
+.userTitleContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.userAdButton{
+    width: 80px;
+    padding: 5px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.userContainer{
+    display: flex;
+}
+.userShow{
+    flex: 1;
+    padding: 20px;
+    box-shadow: 0px 0px 14px -10px rgba(0, 0, 0, 0.75);
+}
+.userUpdate{
+    flex: 2;
+    padding: 20px;
+    box-shadow: 0px 0px 14px -10px rgba(0, 0, 0, 0.75);
+}
+.userShowTop
+{
+    display: flex;
+    align-items: center;
+
+}
+.userShowTopImg
+{
+    width: 70px;
+    height: 70px;;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.userShowTopTitle
+{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.userShowtopName
+{
+    font-weight: 600;
+    
+}
+.userShowTopUserTitle{
+    font-weight: 300;
+}
+.userShowTitle
+{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(204, 195, 195);
+    
+}
+.userShowBottom
+{
+margin-top: 10px;
+}
+.userShowInfo
+{
+    display: flex;
+    align-items: center;
+    color: #444;
+    margin: 20px 0px;
+}
+.userShowIcon
+{
+    font-size: 16px !important; 
+    margin-right: 5px;
+}
+
+.userUpdateUpLoadImg
+{
+    width: 100px;
+    height: 100px;;
+    border-radius: 10px;
+    object-fit: cover;
+    cursor: pointer;
+    margin-right: 10px ;
+}
+ .userUpdateTitileForm
+ {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+ }
+ .userUpdateTitle
+ {
+    font-size: 24px;
+    font-weight: 600;
+ }
+ .userUpdateItem
+ {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    
+ }
+ .userUpdateItem>label
+ {
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 600;
+ }
+ .userUpdateItem>input
+ {
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 250px;
+    height: 30px ;
+
+ }
+ .userUpdateRight
+ {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+ .userUpdateUpload{
+    display: flex;
+    align-items: center;
+ }
+
+ .userUpdateIcon
+ {
+    cursor: pointer;
+ }
+
+ .userUpdateRiButtton
+ {
+    
+    border: none;
+    padding: 5px; 
+    border-radius: 10px;
+    background-color:darkblue ;
+    cursor: pointer;
+    color: white;
+ font-size: 16px;
+ }

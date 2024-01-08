@@ -1,0 +1,96 @@
+.product{
+    flex: 4;
+    padding: 20px;
+}
+.productTitltContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.productAddbutton{
+    padding: 5px;
+    background-color:#3bb077;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    width: 80px;
+    font-size: 16px;
+}
+
+.productTop{
+    display: flex;
+}
+.productTopLeft,.productTopRight{
+    flex: 1;
+}
+.productTopRight{
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 14px -10px rgba(0, 0, 0, 0.75);
+}
+.ProductImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.productInfoTop
+{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.productName{
+    font-weight: 600;
+}
+.productInfoBottom{
+    margin-bottom: 10px;
+}
+.productInfoItem{
+    display: flex;
+
+    justify-content: space-between;
+    width: 150px;
+   
+}
+
+.productInfoKey{
+    font-weight: 800;
+    margin-top: 10px;
+    text-align: center;
+    text-align: center;
+}
+.productInfoValue{
+    font-weight: 80;
+    margin-top: 10px;
+}
+.productBottom{
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 14px -10px rgba(0, 0, 0, 0.75);
+}
+
+.ProductImg{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+.productForm{
+    display: flex;
+    justify-content: space-between;
+}
+.productFormleft{
+    display: flex;
+    flex-direction: column;
+}
+.productFormleft label{
+    margin-bottom: 10px;
+    color: gray;
+}
+.productFormleft input{
+border: none;
+padding: 5px;
+margin-bottom: 10px;
+border-bottom: 1px solid;
+}
